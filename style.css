@@ -74,7 +74,7 @@ section.menu nav ul.menu__list li a {
     text-decoration: none;
 }
 section.menu nav ul.menu__list li a:hover {
-    color: orange;
+    color: rgb(9, 90, 197);
     text-decoration: underline;
 }
 section.menu nav ul.menu__list li:nth-child(6) {
@@ -96,17 +96,18 @@ section.title div.title__div {
     justify-content: space-around;
 }
 section.title div.title__container h2 {
-    margin: 60px 120px;
+    margin: 40px 150px;
     font-size: 50px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 60px;
 }
+
 
 /* Imagen de perfil */ 
 section.title img.title__profile {
     margin-right: 153px;
-    width: 368px;
-    height: 368px;
+    width: 350px;
+    height: 350px;
     border-radius: 100%;
     padding-top: 30px;
 }
@@ -125,31 +126,76 @@ section.title div.title__div div.title__container ul {
     font-size: 16px;
     font-weight: 400;
     line-height: 16px;
-    margin: auto 153px 30px;
+    margin: auto 150px 30px;
 }
 /*Sección About*/
 
 section.about {
-    padding: 62px 153px;
+    padding: 55px 153px;
     background-color: #EAF2FD;
+    
 }
 
 /* Container section about */
 section.about div.about__container {
-    width: 700px;
+    width: 800px;
+    margin: 30px 0px;
+    
 }
 section.about h3.about__title {
     font-size: 32px;
 }
 section.about div.about__container p {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*Sección skills tamaño*/
+section.skills {
+    margin: 64px 100px;
+}
+section.skills h3.skills__title {
+    font-size: 32px;
+    text-align: center;
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+} 
+section.skills div.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+section.skills div.skills__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    background-color: #ffffff;
+    margin: 22px 15px 22px 0px;
+    width: 136px;
+    height: 130px;
+}
+section.skills div.skills__box ul {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
 }
 
 
 /* Vamos a desafiarnos trabajando con responsividad?
 Utiliza las referencias de los breakpoints @media abajo */
+
+
+
 
 
 /*Tablet*/
