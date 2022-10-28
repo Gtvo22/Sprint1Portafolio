@@ -493,3 +493,29 @@ section.footer div.footer__rodape {
     line-height: 19px;
     text-align: center;
 }
+/* Estilo de Validacion de la Forma de Contacto */
+input, textarea{
+    border:2px solid #fff;
+    background:#eee;
+}
+input:focus, textarea:focus {
+    outline:none;
+}
+
+.error {
+    border-bottom: 2px solid #f00;
+}
+
+.valid{
+    border-bottom: 2px solid #2A7AE4;
+}
+
+/*.invalid{
+  background:red;
+}*/
+
+#errors span{
+    padding-top: 10px;
+    width:82%;
+    display:block;
+}
