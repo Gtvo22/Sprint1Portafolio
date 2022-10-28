@@ -48,12 +48,14 @@ section.menu {
     align-content: flex-end;
     height: 10%;
     margin: 0 153px;
+    
 }
 header.menu__header {
     display: flex;
     justify-content: space-between;
     font-size: 16px;
     font-weight: 700;
+    
 }
 header.menu__header h3 {
     font-family: var(--raleway);
@@ -89,11 +91,12 @@ section.title {
     color: black;
 }
 section.title div.title__div {
-    background-color: rgb(26, 137, 241);
+    /*background-color: rgb(26, 137, 241);*/
     align-content: flex-start;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
+    
 }
 section.title div.title__container h2 {
     margin: 40px 150px;
@@ -292,7 +295,7 @@ div.academic__courses__box ul.academic__courses__list li.academic__courses__item
 
 section.experience {
     padding: 64px 0;
-    background-color: #EAF2FD;
+   
 }
 section.experience h2.experience__section__title {
     font-size: 32px;
@@ -371,4 +374,122 @@ section.experience div.experience__info div.experience__description button.exper
     line-height: 19px;
     margin-top: 32px;
     border: none;
+}
+/* Seccion Contacto */
+section.formcontato {
+    padding: 64px 0;
+    background-color: #EAF2FD;
+}
+section.formcontato div.formcontato__contacto {
+    display: flex;
+    justify-content: center;
+    margin: 0 153px;
+}
+section.formcontato div.formcontato__text {
+    padding-left: 16px;
+}
+section.formcontato h2.formcontato__title {
+    font-family: var(--raleway);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    color: #464646;
+    padding-bottom: 8px;
+}
+section.formcontato h3.formcontato__subtext {
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.78px;
+    color: #464646;
+}
+section.formcontato form.formcontato__form input.formcontato__input {
+    margin-top: 32px;
+    width: 656px;
+    height: 56px;
+    border-radius: 4%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #C8C8C8;
+    background: #FFFFFF;
+    align-self: stretch;
+    text-decoration: #464646;
+}
+section.formcontato form.formcontato__form input.formcontato__input__e {
+    margin-top: 32px;
+    width: 656px;
+    height: 56px;
+    border-radius: 4%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #C8C8C8;
+    background: #FFFFFF;
+    align-self: stretch;
+}
+section.formcontato form.formcontato__form input.formcontato__input__e.valid{
+    border-bottom: 2px solid #2A7AE4;
+} 
+section.formcontato form.formcontato__form textarea.formcontato__textarea {
+    margin-top: 32px;
+    width: 656px;
+    height: 133px;
+    border-radius: 4%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #C8C8C8;
+    background: #FFFFFF;
+    align-self: stretch;
+}
+section.formcontato form.formcontato__form textarea.formcontato__textarea.valid {
+    border-bottom: 2px solid #2A7AE4;
+}
+section.formcontato form.formcontato__form input.formcontato__input.valid{
+     border-bottom: 2px solid #2A7AE4;
+} 
+section.formcontato form.formcontato__form button.formcontato__boton {
+    background: #2A7AE4;
+    color: #ffffff;
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 16px;
+    line-height: 19px;
+    margin-top: 32px;
+    border: none;
+}
+section.formcontato form.formcontato__form button.formcontato__boton:hover {
+    background: #0625d6;
+    color: #ffffff;
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 16px;
+    line-height: 19px;
+    margin-top: 32px;
+    border: none;
+}
+
+/* seccion de Footer*/
+section.footer {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 10px;
+}
+section.footer div.footer__rodape {
+    font-family: 'Raleway';
+    color: #464646;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
 }
