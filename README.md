@@ -1,7 +1,7 @@
 # Challenge ONE | Front End -  Portafolio
 
 <p align="center" >
-     <img width="600" heigth="600" src="assets\perfil-presentacion -portafolio.png">
+     <img width="600" heigth="600" src="assets\ruradeperfil.png">
 </p>
 
 
@@ -20,7 +20,7 @@
 
 #### Cuando clones o descargues el proyecto base, tendrás la siguiente presentación:
 <p align="center" >
-     <img width="600" heigth="600" src="assets\perfil-presentacion -portafolio.png">
+     <img width="600" heigth="600" src="assets\ruradeperfil.png">
 </p>
 
 
