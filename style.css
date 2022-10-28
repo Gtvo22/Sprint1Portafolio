@@ -288,51 +288,87 @@ div.academic__courses__box ul.academic__courses__list li.academic__courses__item
     line-height: 19px;;
     color: #464646;
 }
+/* experiencia profesional*/
 
-
-/* Vamos a desafiarnos trabajando con responsividad?
-Utiliza las referencias de los breakpoints @media abajo */
-
-
-
-
-
-/*Tablet*/
-@media (min-width: 768px) {
-
-/* Menú */
-
-/*title*/
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
+section.experience {
+    padding: 64px 0;
+    background-color: #EAF2FD;
 }
-
-/*Mobile*/
-@media (min-width: 425px) {
-
-/*Menu*/
-
-/*Titulo*/
-
-/*Sección sobre mi*/
-
-/*Skills*/
-
-/*Hobbies*/
- 
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
- /*Contacto*/
-
-/*Footer*/
-
+section.experience h2.experience__section__title {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 32px;
+    color: #464646;
+}
+div.experience__box img.experience__img{
+    width: 752px;
+    height: 406px;
+    border-radius: 0px;
+}
+div.experiences__box img.experience__img{
+    width: 752px;
+    height: 406px;
+    border-radius: 0px;
+}
+section.experience div.experience__box {
+    display: flex;
+    margin: 0 152px;
+    justify-content: center;
+    padding-bottom: 64px;
+    
+}
+section.experience div.experiences__box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding-bottom: 64px;
+}
+section.experience div.experiences__box div.experience__info h2.experience__title {
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+section.experience div.experience__info h2.experience__title {
+    margin: 147px 10px 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+}
+section.experience div.experience__info h3.experience__text {
+    padding-left: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+section.experience div.experience__info div.experience__description button.experiencia__boton--repo {
+    background: #FFFFFF;
+    color: #2A7AE4;
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 16px;
+    line-height: 19px;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border: 1px solid #2A7AE4;
+}
+section.experience div.experience__info div.experience__description button.experience__boton--demo {
+    background: #2A7AE4;
+    color: #ffffff;
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 16px;
+    line-height: 19px;
+    margin-top: 32px;
+    border: none;
 }
