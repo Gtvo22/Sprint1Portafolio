@@ -49,6 +49,7 @@ section.menu {
     height: 10%;
     margin: 0 153px;
     
+    
 }
 header.menu__header {
     display: flex;
@@ -89,6 +90,7 @@ section.menu nav ul.menu__list li:nth-child(6) {
 section.title {
     width: 100%;
     color: black;
+    background-color: #1d4b8b;
 }
 section.title div.title__div {
     /*background-color: rgb(26, 137, 241);*/
@@ -109,10 +111,12 @@ section.title div.title__container h2 {
 /* Imagen de perfil */ 
 section.title img.title__profile {
     margin-right: 153px;
-    width: 350px;
-    height: 350px;
+    background-position: center;
+    width: 300px;
+    height: 300px;
     border-radius: 100%;
     padding-top: 30px;
+     
 }
 section.title div.title__div div.title__container h3 {
     font-size: 17px;

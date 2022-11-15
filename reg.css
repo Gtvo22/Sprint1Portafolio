@@ -1,0 +1,22 @@
+body{
+    background: #F5F5F5;
+}
+.cadastro-cabecalho {
+    padding: 10px 10px 10px 120px;
+
+}
+.registry-header__logo {
+    display: block;
+    margin: 0px auto;
+    width: 500px;
+    height: 300px;
+    
+}
+.registry-header__title{
+    text-align: center;
+    
+}
+.registry-card__title{
+    text-align: center;
+   
+}
